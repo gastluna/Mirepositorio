@@ -1,0 +1,30 @@
+#preg {
+    color: rgb(104, 59, 81);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    width: 70%;
+    border-style: dotted;
+    border-color: #B39CD0;
+    padding: 10px;
+
+
+    p {
+       font-family: 'Lato', sans-serif;
+       color: rgba (87, 79, 79, 0.884);
+       font-size: 20px;    
+       
+    }
+}
+
+@media screen and (max-width: 720px){
+    #preg   {
+        white-space:pre-wrap
+
+
+        &.answer1      {
+           text-overflow: clip;
+           white-space: pre;
+       }
+    }
+}

@@ -1,0 +1,46 @@
+.LOGOcopia  div{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    top: 40px;
+    left: 40px;
+}
+
+.contenedor     {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+
+    & div img:hover {
+        transform: scale(1.15);
+    }
+
+
+    .contenedor-image1     {
+        display: flex;
+        padding: 0;
+        margin: 10%;
+        opacity: 90%;
+    }
+    
+    .contenedor-image2  {
+        padding: 0;
+        margin: 10%;
+        opacity: 90%;  
+    }
+}
+
+@media screen and (max-width: 720px){
+    .contenedor {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .contenedor-logo    {
+           display: flex;
+           text-align: center;
+           width: 100fx;
+       }
+    }
+}

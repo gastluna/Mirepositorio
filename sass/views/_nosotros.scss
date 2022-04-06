@@ -1,0 +1,49 @@
+
+.weisy{
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+}
+
+.weisy2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #6e7375;
+    margin: 0;
+    padding: 0;
+}
+
+#articulo   {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        width: 100vh;
+       white-space: pre-line;
+       display: flex;
+       text-align: center;
+    }
+}
+
+
+.ubication   {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 720px){
+
+    #articulo    {
+        display: flex;
+        text-align: center;
+
+        p {
+
+            width: 300px;
+            font-size: 30px;
+            white-space: pre-wrap;
+        }
+    }
+}

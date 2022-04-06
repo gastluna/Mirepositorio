@@ -1,0 +1,48 @@
+html    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+.menu       {
+    font-family: 'Smooch Sans', sans-serif;
+    background-color: rgba(112, 159, 206, 0.349);
+    border-style: outset;
+    color: beige ;
+            }
+
+    
+a    {
+        display: flex;
+        justify-content: space-between;
+        color: rgba(179, 41, 110, 0.726);
+        font-size: 30px;
+        padding: 50px;
+        display: inline-block;
+
+
+        &:hover     {
+            transition: width 50%;
+            transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+            background: #355C7D;
+            background: linear-gradient(to top, #C06C84, #6C5B7B, #355C7D);
+            opacity: 50%;
+            border-radius: 15px;
+        }
+}
+
+@media screen and (max-width: 720px){
+
+    header   {
+            padding: 2em;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .menu   {
+                font-size: .8em;
+            }
+        }
+    }

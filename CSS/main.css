@@ -1,0 +1,270 @@
+/* Imports */
+/* Miscelaneous */
+/* Partials */
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center; }
+
+.menu {
+  font-family: 'Smooch Sans', sans-serif;
+  background-color: rgba(112, 159, 206, 0.349);
+  border-style: outset;
+  color: beige; }
+
+a {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(179, 41, 110, 0.726);
+  font-size: 30px;
+  padding: 50px;
+  display: inline-block; }
+  a:hover {
+    transition: width 50%;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+    background: #355C7D;
+    background: linear-gradient(to top, #C06C84, #6C5B7B, #355C7D);
+    opacity: 50%;
+    border-radius: 15px; }
+
+@media screen and (max-width: 720px) {
+  header {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    header .menu {
+      font-size: .8em; } }
+
+#pie {
+  background-color: rgba(112, 159, 206, 0.26); }
+  #pie a {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #3c4eb4;
+    padding: 10px; }
+    #pie a a:hover {
+      color: #C06C84; }
+  #pie p {
+    font-family: 'Smooch Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block; }
+
+/* Views */
+.LOGOcopia div {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 40px;
+  left: 40px; }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5%;
+  display: flex;
+  justify-content: space-around; }
+  .contenedor div img:hover {
+    transform: scale(1.15); }
+  .contenedor .contenedor-image1 {
+    display: flex;
+    padding: 0;
+    margin: 10%;
+    opacity: 90%; }
+  .contenedor .contenedor-image2 {
+    padding: 0;
+    margin: 10%;
+    opacity: 90%; }
+
+@media screen and (max-width: 720px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column-reverse; }
+    .contenedor .contenedor-logo {
+      display: flex;
+      text-align: center;
+      width: 100fx; } }
+
+.weisy {
+  font-family: 'Lato', sans-serif;
+  font-size: 70px; }
+
+.weisy2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: #6e7375;
+  margin: 0;
+  padding: 0; }
+
+#articulo {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #articulo p {
+    width: 100vh;
+    white-space: pre-line;
+    display: flex;
+    text-align: center; }
+
+.ubication {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 30px; }
+
+@media screen and (max-width: 720px) {
+  #articulo {
+    display: flex;
+    text-align: center; }
+    #articulo p {
+      width: 300px;
+      font-size: 30px;
+      white-space: pre-wrap; } }
+
+.table {
+  border-color: aliceblue;
+  border-radius: 5px;
+  background: linear-gradient(70deg, #845EC2, #B39CD0, #FBEAFF, #00C9A7);
+  width: 100%;
+  height: 100%; }
+  .table input {
+    background-color: azure;
+    font-family: sans-serif;
+    font-size: larger; }
+
+@media screen and (max-width: 720px) {
+  .table {
+    display: flex;
+    flex-direction: column; } }
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr;
+  grid-template-areas: "tittle1 tittle2 tittle3" "sillon1 sillon2 sillon3" "p1 p2 p3";
+  margin: 0%;
+  padding: 0%;
+  width: 100%; }
+  .galeria p {
+    margin: 10px;
+    padding: 25px;
+    font-family: 'Smooch Sans', sans-serif;
+    white-space: normal; }
+  .galeria .tittle1 {
+    grid-area: tittle1; }
+  .galeria .tittle2 {
+    grid-area: tittle2; }
+  .galeria .tittle3 {
+    grid-area: tittle3; }
+  .galeria .sillon1 {
+    grid-area: sillon1; }
+  .galeria .sillon2 {
+    grid-area: sillon2; }
+  .galeria .sillon3 {
+    grid-area: sillon3; }
+  .galeria .sillon1 p1 {
+    grid-area: p1; }
+  .galeria .sillon2 p2 {
+    grid-area: p2; }
+  .galeria .sillon3 p3 {
+    grid-area: p3; }
+  .galeria h2 {
+    font-family: 'Lato', sans-serif;
+    size: 40px; }
+  .galeria img:hover {
+    transition: transform 3s ease-in-out;
+    transform: rotate(360deg); }
+
+@media screen and (max-width: 720px) {
+  .galeria {
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "tittle1 sillon1 p1" "tittle2 sillon2 p2" "tittle3 sillon3 p3"; }
+  p {
+    font-size: 30px; } }
+
+.tabla {
+  background: linear-gradient(70deg, #845EC2, #B39CD0, #FBEAFF, #00C9A7);
+  color: #1f2224;
+  border-color: #f0f0f0;
+  margin: 10px;
+  padding: 10px; }
+  .tabla .logocontact {
+    background-image: url(/Multimedia/Logofondo.png);
+    background-repeat: no-repeat;
+    background-position: right top; }
+  .tabla label {
+    display: flex;
+    justify-content: center; }
+  .tabla .contactname, .tabla .contactemail, .tabla .contactnumber {
+    width: 25%; }
+  .tabla::placeholder {
+    display: flex;
+    text-align: center; }
+  .tabla textarea {
+    color: #1f2224;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    width: 45%; }
+  .tablanot button {
+    display: flex;
+    text-align: center;
+    color: #1f2224;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%; }
+  .tablabutton {
+    background-color: azure;
+    font-family: sans-serif;
+    font-size: 5px; }
+
+@media screen and (max-width: 720px) {
+  .tabla {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .tabla input {
+      font-size: medium;
+      text-align: center;
+      width: 200px; }
+    .tabla .contactname {
+      font-size: medium;
+      text-align: center;
+      width: 200px; }
+    .tabla textarea {
+      width: 300%;
+      font-size: 15px;
+      display: flex;
+      text-align: center; }
+    .tabla .button {
+      display: flex;
+      justify-content: center;
+      font-size: 20px; } }
+
+#preg {
+  color: #683b51;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  width: 70%;
+  border-style: dotted;
+  border-color: #B39CD0;
+  padding: 10px; }
+  #preg p {
+    font-family: 'Lato', sans-serif;
+    color: rgba 87, 79, 79, 0.884;
+    font-size: 20px; }
+
+@media screen and (max-width: 720px) {
+  white-space:pre-wrap
+#preg.answer1 {
+    text-overflow: clip;
+    white-space: pre; } }

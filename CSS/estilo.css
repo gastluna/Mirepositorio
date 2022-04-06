@@ -1,4 +1,4 @@
-html    {
+ /* html    {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@ html    {
     text-align: center;
 }
 
-/* index */
+ index 
 .LOGOcopia  div{
     position:absolute;
     width: 10px;
@@ -15,7 +15,7 @@ html    {
     left: 40px;
 }
 
-
+ header *
 .menu       {
     font-family: 'Smooch Sans', sans-serif;
     background-color: rgba(112, 159, 206, 0.349);
@@ -32,6 +32,7 @@ html    {
     display: inline-block;
 }
 
+/* footer */ /*
 #pie a   {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -45,11 +46,15 @@ html    {
     font-size: 15px;
     padding: 10px;
     display: inline-block;
+} 
+
+#pie    {
+    background-color: rgba(112, 159, 206, 0.26);
 }
 
 
 /* Preguntas frecuentes */
-#preg {
+/* #preg { 
     color: rgb(104, 59, 81);
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -74,6 +79,7 @@ html    {
 }
 
 /* Contacto */
+/*
 .tabla  {
     color: #1f2224;
     border-color: rgb(240, 240, 240);
@@ -129,6 +135,8 @@ textarea{
 }
 
 /* Creá con estilo */
+
+/*
 .table  {
     border-color: aliceblue;
     border-radius: 5px;
@@ -175,6 +183,7 @@ textarea{
     white-space: pre;
 }
 
+
 .weisy{
     font-family: 'Lato', sans-serif;
     font-size: 70px;
@@ -195,6 +204,7 @@ textarea{
 
 /* Grid y Flex INDEX*/
 
+/*
 .contenedor     {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -217,8 +227,10 @@ textarea{
     opacity: 90%;  
 }
 
+
 /* Grid y Flex Colecciones*/
 
+/*
 .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -287,6 +299,7 @@ font-size: 20px;
 
 
 /* mobile first */
+/*
 @media screen and (max-width: 720px){
 
 header   {
@@ -296,6 +309,10 @@ header   {
         text-align:  center;
         flex-direction: column;
     }
+                .menu   {
+                font-size: .8em;
+            }
+
     .contenedor {
         display: flex;
         flex-direction: column-reverse;
@@ -322,15 +339,21 @@ header   {
         font-size: 30px;
     }
 
+
+
     #articulo    {
         display: flex;
         flex-direction: column;
     }
 
+
     .table  {
         display: flex;
         flex-direction: column;
     }
+
+
+
 
     .tabla  {
         display: flex;
@@ -360,6 +383,7 @@ header   {
         font-size: 20px;
     }
 
+
     #preg   {
         white-space:pre-wrap
     }
@@ -370,6 +394,7 @@ header   {
 }
 
 /* Animaciones */
+/*
 .menu a:hover  {
 
     transition: width 50%;
@@ -383,11 +408,19 @@ header   {
     transform: scale(1.15);
 }
 
+
+
+
 .galeria img:hover    {
     transition: transform 3s ease-in-out;
     transform: rotate(360deg);
 }
 
+
+
+
 #pie a:hover {
     color: #C06C84
 } 
+
+*/
