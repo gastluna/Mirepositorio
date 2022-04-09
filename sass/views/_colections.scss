@@ -1,3 +1,19 @@
+// map
+
+@each $tittle, $color in tittle {
+    .tittle1    {
+        background-color: $color;
+    }
+    
+}
+
+// Map-get
+div     {
+    background-color: map-get($estilos , color);
+    text-align: map-get($estilos , centro );
+    font-size: map-get($estilos, tFuente );
+    padding: map-get($estilos , 1rem );
+}
 .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,12 +26,14 @@
     padding: 0%;
     width: 100%;
     
-    p  {
+    .galeria p  {
         margin: 10px;
         padding: 25px;
-        font-family: 'Smooch Sans', sans-serif;
+        font-family: $font-primary;
         white-space: normal;
+        font-size: 25px;
    }
+
    
    .tittle1    {
        grid-area: tittle1;
@@ -54,7 +72,7 @@
    }
 
    h2 {
-      font-family: 'Lato', sans-serif;
+      font-family: $font-secondary;
       size: 40px;
    }
 

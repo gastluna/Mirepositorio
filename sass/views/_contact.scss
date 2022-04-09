@@ -14,8 +14,7 @@
     }
 
     label   {
-       display: flex;
-       justify-content: center;
+        @include flex-center;
     }
 
      .contactname, .contactemail, .contactnumber     {
@@ -23,22 +22,19 @@
     }
 
     &::placeholder  {
-        display: flex;
-        text-align: center;
+        @include flex-center;
     }
 
     textarea{
         color: #1f2224;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 20px;
-        display: flex;
-        text-align: center;
+        @include flex-center;
         width: 45%;
     }
     
     &not button    {
-        display: flex;
-        text-align: center;
+        @include flex-center;
         color: #1f2224;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 100%;
@@ -54,9 +50,9 @@
 
 @media screen and (max-width: 720px){
     .tabla  {
-        display: flex;
+        @include flex-center;
         flex-direction: column;
-        text-align: center;
+
 
         input    {
            font-size: medium;
@@ -71,10 +67,9 @@
       }
 
       textarea    {
+    @include flex-center;
      width: 300%;
      font-size: 15px;
-     display: flex;
-     text-align: center;
     }
  
       .button  {

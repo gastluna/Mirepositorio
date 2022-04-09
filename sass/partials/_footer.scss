@@ -3,7 +3,7 @@
 
     a {
         font-family: 'Lato', sans-serif;
-        font-size: 15px;
+        font-size: $text-md;
         color: rgb(60, 78, 180);
         padding: 10px;
 
@@ -15,7 +15,7 @@
     p   {
        font-family: 'Smooch Sans', sans-serif;
        color: rgba(0, 0, 0, 0.774);
-       font-size: 15px;
+       font-size: $text-md;
        padding: 10px;
        display: inline-block;
     }

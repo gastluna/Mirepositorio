@@ -1,7 +1,7 @@
 #preg {
     color: rgb(104, 59, 81);
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: $text-lg;
+    font-family: $font-primary;
     margin: auto;
     width: 70%;
     border-style: dotted;
@@ -10,7 +10,7 @@
 
 
     p {
-       font-family: 'Lato', sans-serif;
+       font-family: $font-secondary;
        color: rgba (87, 79, 79, 0.884);
        font-size: 20px;    
        

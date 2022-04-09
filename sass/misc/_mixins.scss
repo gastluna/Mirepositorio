@@ -1,0 +1,15 @@
+/* MIXINS */
+
+@mixin flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+@mixin flex-center {
+    display: flex;
+    text-align: center;
+}

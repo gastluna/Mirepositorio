@@ -38,8 +38,8 @@
         flex-direction: column-reverse;
 
         .contenedor-logo    {
-           display: flex;
-           text-align: center;
+            @include flex-center;
+
            width: 100fx;
        }
     }

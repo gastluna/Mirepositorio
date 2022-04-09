@@ -1,20 +1,20 @@
 
 .weisy{
-    font-family: 'Lato', sans-serif;
+    font-family: $font-secondary;
     font-size: 70px;
 }
 
 .weisy2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    font-family: $font-secondary;
+    font-size: $text-lg;
     color: #6e7375;
     margin: 0;
     padding: 0;
 }
 
 #articulo   {
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 30px;
+    font-family: $font-primary;
+    font-size: $text-lg;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,22 +22,20 @@
     p {
         width: 100vh;
        white-space: pre-line;
-       display: flex;
-       text-align: center;
+       @include flex-center;
     }
 }
 
 
 .ubication   {
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 30px;
+    font-family: $font-primary;
+    font-size: $text-lg;
 }
 
 @media screen and (max-width: 720px){
 
     #articulo    {
-        display: flex;
-        text-align: center;
+        @include flex-center;
 
         p {
 
