@@ -12,7 +12,7 @@ html {
 main  {
   background-image: url(Multimedia/fondo.png);
   background-size: 100%;
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .menu {
   padding: 0;
